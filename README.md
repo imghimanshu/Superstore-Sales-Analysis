@@ -16,7 +16,7 @@ This project analyzes retail sales data from a fictional "Superstore" to underst
 - **Records**: 9,994 orders
 - **Columns**: 22 fields including Order Date, Ship Date, Ship Mode, Customer, Segment, Region, Category, Sub-Category, Product Name, Sales, Quantity, Discount, and Profit
 - **Files**:
-  - `data/raw/superstore_clean.csv` — original dataset as downloaded
+  - `data/raw/superstore.csv` — original dataset as downloaded
   - `data/cleaned/Himanshu_clean.csv` — cleaned dataset used in the analysis (parsed dates, consistent formatting)
 
 ---
@@ -89,7 +89,7 @@ superstore-sales-analysis/
 ├── requirements.txt
 ├── superstore_analysis.ipynb
 ├── data/
-│   ├── raw/superstore_clean.csv
+│   ├── raw/superstore.csv
 │   └── cleaned/Himanshu_clean.csv
 └── outputs/
     ├── sales_by_category.png
