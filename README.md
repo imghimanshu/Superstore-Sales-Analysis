@@ -9,7 +9,23 @@ Exploratory Data Analysis (EDA) of the Superstore sales dataset, uncovering sale
 This project analyzes retail sales data from a fictional "Superstore" to understand what drives revenue and profit across categories, regions, and products. Using **pandas** for data wrangling and **matplotlib/seaborn** for visualization, the notebook walks through cleaning, aggregating, and charting the dataset to surface actionable business insights — the kind of analysis a retail analytics or BI team would use to guide inventory, pricing, and regional strategy decisions.
 
 ---
+## 📁 Project Structure
 
+```
+superstore-sales-analysis/
+├── README.md
+├── requirements.txt
+├── superstore_analysis.ipynb
+├── data/
+│   ├── raw/superstore.csv
+│   └── cleaned/Himanshu_clean.csv
+└── outputs/
+    ├── sales_by_category.png
+    ├── monthly_trend.png
+    ├── profit_by_region.png
+    ├── heatmap.png
+    └── top10_products.png
+```
 ## 📊 Dataset
 
 - **Source**: Superstore Sales dataset (originally from Kaggle)
@@ -81,20 +97,3 @@ pip install -r requirements.txt
 jupyter notebook superstore_analysis.ipynb
 ```
 
-## 📁 Project Structure
-
-```
-superstore-sales-analysis/
-├── README.md
-├── requirements.txt
-├── superstore_analysis.ipynb
-├── data/
-│   ├── raw/superstore.csv
-│   └── cleaned/Himanshu_clean.csv
-└── outputs/
-    ├── sales_by_category.png
-    ├── monthly_trend.png
-    ├── profit_by_region.png
-    ├── heatmap.png
-    └── top10_products.png
-```
